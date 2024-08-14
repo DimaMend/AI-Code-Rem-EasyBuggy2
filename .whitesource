@@ -1,12 +1,14 @@
 {
-  "settingsInheritedFrom": "ReachabilityOrg/whitesource-config@main",
+  "settingsInheritedFrom": "DimaMend/whitesource-config@main",
   "scanSettings": {
     "enableReachability": true
   },
+  "scanSettingsSAST": {
+    "enableRemediation": true
+  },
   "remediateSettings": {
-    "enableRenovate": true,
-    "extends": [
-      "config:recommended"
-    ]
+    "workflowRules": {
+      "enabled": false
+    }
   }
 }
