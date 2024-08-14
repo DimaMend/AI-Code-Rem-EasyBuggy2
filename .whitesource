@@ -3,14 +3,9 @@
   "scanSettings": {
     "enableReachability": true
   },
-  "scanSettingsSAST": {
-    "enableRemediation": true
-  },
   "remediateSettings": {
     "workflowRules": {
       "enabled": false
     }
   }
 }
-
-
